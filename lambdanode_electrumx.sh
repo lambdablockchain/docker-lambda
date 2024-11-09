@@ -5,7 +5,7 @@ echo -e "Creating config file..."
 mkdir /data/lambdanode_electrumx > /dev/null 2>&1
 touch /data/lambdanode_electrumx/lambda.conf
 cat <<- EOF > /data/lambdanode_electrumx/lambda.conf
-rpcuser=LambdatDockerUser
+rpcuser=LambdaDockerUser
 rpcpassword=LambdaDockerPassword
 listen=1
 daemon=1
