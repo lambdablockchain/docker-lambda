@@ -2,6 +2,6 @@ build dockerfile by running this command :
 
 docker build -t lambda .
 
-run full node using this command 
+run lambda full node + electrumx server using this command 
 
-docker run -d --name lambda_container -e VAR_NAME=value lambda
+sudo docker run -it -p 50012:50012 --name lambda-container lambda /bin/bash
