@@ -18,6 +18,9 @@ rpcthreads=128
 rpcallowip=0.0.0.0/0
 addnode=145.239.0.137:11029
 addnode=51.75.144.177:21029
+addnode=66.94.115.80:9333
+addnode=173.212.224.67=9333
+
 acceptnonstdtxn=0
 
 EOF
